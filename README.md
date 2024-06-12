@@ -12,8 +12,7 @@ use CNN / DNN to classify the label of the image (cat/dog); image argumentation 
 - Manually delete two dbs in ImagePet/Dogs and ImagePet/Cats
 ### Linux
 - !wget --no-check-certificate \
-    "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip" \
-    -O "/tmp/cats-and-dogs.zip"', notebook will automatically download it.
+    "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip", notebook will automatically download it.
   !find /tmp/PetImages/ -type f ! -name "*.jpg" -exec rm {} +' two dbs in the pets image will automatically delete
 
 ## Transfer learning 
