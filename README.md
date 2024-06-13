@@ -22,7 +22,7 @@ use CNN / DNN to classify the label of the image (cat/dog); image argumentation 
 * Don't recommand run it locally!!!
 * Otherwise run it applying GPUs:
 
-pip install tensorflow-gpu
-import tensorflow as tf
+pip install tensorflow-gpu  
+import tensorflow as tf  
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
