@@ -13,7 +13,7 @@ use CNN / DNN to classify the label of the image (cat/dog); image argumentation 
 ### Linux
 - !wget --no-check-certificate \
     "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip", notebook will automatically download it.
-  !find /tmp/PetImages/ -type f ! -name "*.jpg" -exec rm {} +' two dbs in the pets image will automatically delete
+- !find /tmp/PetImages/ -type f ! -name "*.jpg" -exec rm {} +' two dbs in the pets image will automatically delete
 
 ## Transfer learning 
 - Download the model weight data from https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
