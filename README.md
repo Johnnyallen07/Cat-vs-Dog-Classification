@@ -17,3 +17,12 @@ use CNN / DNN to classify the label of the image (cat/dog); image argumentation 
 
 ## Transfer learning 
 - Download the model weight data from https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+### Tips
+* Don't recommand run it locally!!!
+* Otherwise run it applying GPUs:
+
+pip install tensorflow-gpu
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+
